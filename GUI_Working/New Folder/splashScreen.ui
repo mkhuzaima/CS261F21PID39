@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	alternate-background-color: rgb(255, 0, 0);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">alternate-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.0170455 rgba(185, 38, 38, 255), stop:0.380682 rgba(16, 72, 106, 255), stop:1 rgba(87, 23, 106, 255));</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">#frame{
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.0170455 rgba(185, 38, 38, 255), stop:0.380682 rgba(16, 72, 106, 255), stop:1 rgba(87, 23, 106, 255));
+
+background-color: rgb(56, 58, 89);
+	border-radius: 15px;
+}
+
+* {
+color: rgb(98, 114, 164)
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(99, 105, 209);
+color: qlineargradient(spread:pad, x1:1, y1:0.834773, x2:0.0170455, y2:1, stop:0.0170455 rgba(185, 38, 38, 255), stop:0.474308 rgba(16, 72, 106, 255), stop:1 rgba(87, 23, 106, 255));
+color: rgb(254, 121, 199);
+</string>
+         </property>
+         <property name="text">
+          <string>Welcome to &lt;strong&gt;Scrapelancer&lt;/strong&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Scraping made easy</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Loading...</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="progressBar">
+         <property name="styleSheet">
+          <string notr="true">QProgressBar{
+            background-color: rgb(98,114,164);
+            color: rgb(200, 200, 200);
+            border-style: none;
+            border-radius: 10px;
+           text-align: center;
+           
+}
+
+QProgressBar::chunk{	
+            background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.0170455 rgba(226, 0, 185, 255), stop:1 rgba(21, 25, 255, 255));
+            border-radius: 10px;
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511364, x2:1, y2:0.523, stop:0 rgba(254, 121, 199, 255), stop:1 rgba(170, 85, 255, 255));
+            
+}</string>
+         </property>
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">padding-right: 40px;</string>
+         </property>
+         <property name="text">
+          <string>© Made by Group: 39</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
