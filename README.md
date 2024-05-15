@@ -50,10 +50,6 @@ The project is structured as follows:
 - `data/`: Contains any data files used in the project.
 - `[other directories]/`: Describe other directories if necessary.
 
-## Contributors
-
-- [Your Name] ([Your GitHub Profile](https://github.com/yourusername))
-- [Other contributors if any]
 
 ## License
 
