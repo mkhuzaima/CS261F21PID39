@@ -41,13 +41,6 @@ To install the necessary dependencies for the project, follow these steps:
    [provide the command to install dependencies, e.g., `pip install -r requirements.txt`]
    ```
 
-## Usage
-
-To use the project, follow these steps:
-
-1. [Describe how to run or use the project]
-2. [Additional usage instructions]
-
 ## Project Structure
 
 The project is structured as follows:
