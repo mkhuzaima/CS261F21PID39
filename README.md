@@ -1,12 +1,8 @@
-Certainly! Below is a template for a README file for a GitHub repository. Please replace the placeholders with the relevant information for your project.
-
----
-
 # CS261F21PID39
 
 ## Description
 
-This repository contains the course project for CS261, completed in the Fall of 2021. The project focuses on [briefly describe the project's purpose or goal].
+This repository contains the course project for CS261, completed in the Fall of 2021. The project focuses on Scraping of Data through automation.
 
 ## Table of Contents
 
